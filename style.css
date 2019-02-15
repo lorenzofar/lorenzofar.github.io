@@ -1,0 +1,17 @@
+body{
+    font-size: 8vh;
+    font-family: "Helvetica", Arial, sans-serif;
+    padding: 26px 0 0 36px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+#main{
+    margin-bottom: 10vh;
+}
