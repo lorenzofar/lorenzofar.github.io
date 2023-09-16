@@ -1,0 +1,38 @@
+html 
+    head
+        title Lorenzo Farinelli
+        block scripts 
+        style
+            block stylesheets
+                include ./style/layout.css
+                include ./style/style.css
+                include ./style/text.css
+
+
+    body
+        #root.gap-md
+            #header.h-flex.expand-children
+                .nav-link
+                    a(href='/photography') Photography
+                .nav-link
+                    a(href='/engineering') Engineering / Research 
+                .nav-link
+                    a(href="/performance") Performance
+                .nav-link
+                    a(href='/about') About
+            block content
+                #main-view
+            block footer
+                #footer.v-flex.gap-sm
+                    hr
+                    .h-flex.space-between
+                        #footer-name
+                            span Lorenzo Farinelli
+                        #footer-links.h-flex.gap-sm
+                            .nav-link
+                                a(href='mailto:lorenzo.farinelli@outlook.it') email
+                            .nav-link
+                                a(href='https://www.linkedin.com/in/lorenzofarinelli/', target="_blank") linkedin
+                            .nav-link
+                                a(href='https://www.instagram.com/lorenzofar', target="_blank") instagram
+                        
